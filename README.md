@@ -131,10 +131,16 @@ Chi-square = 1316936.7298, p = 0.0000
 The data did not meet the normality and/or sphericity requirements for the ANOVA. 
 We reject the null hypothesis and conclude that there are significant differences in the Happiness Score and Custom Score across the years.
 
+# Conclusion
+## So, what makes people in a country happy?
 
-
-
-
+Based on the Correlations noticed in our analysis:
+Improving the Economy, such as by investing in infrastructure and education
+Promoting public health, such as by investing in healthcare and education 
+Fostering social support, such as by providing social services and promoting community engagement
+Promoting freedom, such as by protecting human rights and civil liberties
+Reducing corruption, such as by increasing transparency and accountability
+Encouraging generosity, such as by promoting volunteerism and philanthropy.
 
 
 
