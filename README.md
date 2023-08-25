@@ -83,21 +83,21 @@ Fine-tuned the default models and trained them, too*
 
 ## Model Testing - Ridge regression
 
-<img width="405" alt="Screenshot 2023-08-25 at 5 11 08 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/797a0162-09a7-4fed-ae0e-9eb2d5cea0e1">
+<img width="350" alt="Screenshot 2023-08-25 at 5 11 08 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/797a0162-09a7-4fed-ae0e-9eb2d5cea0e1">
 Default Model
 
-<img width="405" alt="Screenshot 2023-08-25 at 5 10 43 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/bd653cb2-d30c-4a59-ae44-5109646c433b">
+<img width="350" alt="Screenshot 2023-08-25 at 5 10 43 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/bd653cb2-d30c-4a59-ae44-5109646c433b">
 Fine Tuning Model
 
 <img width="364" alt="Screenshot 2023-08-25 at 5 11 41 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/bba1f33f-e20b-4bd3-9648-db3f7c033bc8">
 
 ## Model Testing - Decision Tree
 
-<img width="405" alt="Screenshot 2023-08-25 at 5 12 05 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/f40d187f-08f9-4189-93ba-7bdf38b976d1">
+<img width="350" alt="Screenshot 2023-08-25 at 5 12 05 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/f40d187f-08f9-4189-93ba-7bdf38b976d1">
 Default Model
 
 
-<img width="405" alt="Screenshot 2023-08-25 at 5 12 38 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/0136051d-9690-4ca6-bfbb-800257fcae0a">
+<img width="350" alt="Screenshot 2023-08-25 at 5 12 38 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/0136051d-9690-4ca6-bfbb-800257fcae0a">
 Fine Tuning Model
 
 <img width="364" alt="Screenshot 2023-08-25 at 5 12 41 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/e60ea190-0a68-498d-8036-ec9296dd8f73">
@@ -105,10 +105,10 @@ Fine Tuning Model
 
 ## Model Testing - Random Forest
 
-<img width="405" alt="Screenshot 2023-08-25 at 5 16 25 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/8d9c8f5f-2efd-4d0f-b0f9-c57224b86aea">
+<img width="350" alt="Screenshot 2023-08-25 at 5 16 25 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/8d9c8f5f-2efd-4d0f-b0f9-c57224b86aea">
 Random Forest Default
 
-<img width="405" alt="Screenshot 2023-08-25 at 5 16 30 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/d35c6bfb-8e05-4f80-a009-7f243ea73078">
+<img width="350" alt="Screenshot 2023-08-25 at 5 16 30 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/d35c6bfb-8e05-4f80-a009-7f243ea73078">
 Fine Tuning Model
 
 <img width="364" alt="Screenshot 2023-08-25 at 5 16 33 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/a2ec3fea-25b7-4835-b4a1-2a1d3857bec7">
