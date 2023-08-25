@@ -21,7 +21,7 @@ The density values indicate how concentrated the Happiness Scores are around the
 
 ## Q-Q Plot of Happiness Score 2015-2019
 <img width="784" alt="Screenshot 2023-08-25 at 5 03 43 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/f38ca447-ea9a-4c44-93c1-282fa1f09721">
-<img width="200" alt="Screenshot 2023-08-25 at 5 03 57 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/8df9bca9-6315-4fb6-8e51-d770dfbb6897">
+<img width="300" alt="Screenshot 2023-08-25 at 5 03 57 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/8df9bca9-6315-4fb6-8e51-d770dfbb6897">
 
 The Q-Q plots show that the points lie approximately along a straight line, further suggesting that the Happiness Scores could be normally distributed or at least follow a distribution similar to normal. While there may be some deviation from a perfect normal distribution, these visualizations indicate that the data is close to being normally distributed, and any statistical analyses that assume normality can be considered reasonably valid
 
