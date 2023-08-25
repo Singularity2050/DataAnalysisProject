@@ -80,23 +80,65 @@ Trained the default models
 Fine-tuned the default models and trained them, too*
 * Fine-tuning involves cross-validation
 
-## Model Testing Ridge regression
-Default Model
-<img width="405" alt="Screenshot 2023-08-25 at 5 11 08 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/797a0162-09a7-4fed-ae0e-9eb2d5cea0e1">
+## Model Testing - Ridge regression
 
-Fine Tuning Model
+<img width="405" alt="Screenshot 2023-08-25 at 5 11 08 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/797a0162-09a7-4fed-ae0e-9eb2d5cea0e1">
+Default Model
+
 <img width="405" alt="Screenshot 2023-08-25 at 5 10 43 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/bd653cb2-d30c-4a59-ae44-5109646c433b">
+Fine Tuning Model
 
 <img width="364" alt="Screenshot 2023-08-25 at 5 11 41 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/bba1f33f-e20b-4bd3-9648-db3f7c033bc8">
 
-## Model Testing 
-Default Model
-<img width="405" alt="Screenshot 2023-08-25 at 5 12 05 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/f40d187f-08f9-4189-93ba-7bdf38b976d1">
+## Model Testing - Decision Tree
 
-Fine Tuning Model
+<img width="405" alt="Screenshot 2023-08-25 at 5 12 05 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/f40d187f-08f9-4189-93ba-7bdf38b976d1">
+Default Model
+
+
 <img width="405" alt="Screenshot 2023-08-25 at 5 12 38 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/0136051d-9690-4ca6-bfbb-800257fcae0a">
+Fine Tuning Model
 
 <img width="364" alt="Screenshot 2023-08-25 at 5 12 41 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/e60ea190-0a68-498d-8036-ec9296dd8f73">
+
+
+## Model Testing - Random Forest
+
+<img width="405" alt="Screenshot 2023-08-25 at 5 16 25 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/8d9c8f5f-2efd-4d0f-b0f9-c57224b86aea">
+Random Forest Default
+
+<img width="405" alt="Screenshot 2023-08-25 at 5 16 30 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/d35c6bfb-8e05-4f80-a009-7f243ea73078">
+Fine Tuning Model
+
+<img width="364" alt="Screenshot 2023-08-25 at 5 16 33 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/a2ec3fea-25b7-4835-b4a1-2a1d3857bec7">
+
+# Feature Engineering
+## Feature Creation
+We created a new feature "Custom Score" by using the weights and bias determined by the best performing model.
+Custom Score = 0.34 * Economy (GDP per Capita)  +  0.23 * Family +           0.22 * Health (Life Expectancy)  +  0.15 * Freedom  +  0.06 * Trust (Government Corruption)  +  0.05 * Generosity +  -0.04 * Year +  204.40
+
+## Correction Analysis
+
+<img width="435" alt="Screenshot 2023-08-25 at 5 18 52 PM" src="https://github.com/Singularity2050/DataAnalysisProject/assets/67400401/6de16af9-a3a5-4074-8dca-a16fa1c8e234">
+
+The correlation coefficient is ~0.86, which is higher than the correlation coefficients between the actual Happiness Score and the individual features. This indicates that the custom score is a better predictor of happiness than the individual features.
+
+## Quantitative Analysis
+
+Performed The Friedman test to check normality for both Happiness and Custom scores
+Friedman test results:
+Chi-square = 1316936.7298, p = 0.0000
+The data did not meet the normality and/or sphericity requirements for the ANOVA. 
+We reject the null hypothesis and conclude that there are significant differences in the Happiness Score and Custom Score across the years.
+
+
+
+
+
+
+
+
+
 
 
 
